@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/auth.js" defer></script>
+    <script src="https://apis.google.com/js/api.js" id="gapi" async defer></script>
+    <script src="https://accounts.google.com/gsi/client" id="gis" async defer></script>
+    <script src="js/sheets.js" defer></script>
+    <script src="js/index.js" defer></script>
+
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1><FONT COLOR="white">Gestion de inventarios</FONT></h1>
+        
+<br>
+</B> 
+    </header>
+    <main>
+        
+
+                <button id="prevBtn" class="carrusel-btn">❮</button>
+                <div id="DatosContainer"></div>
+                <button id="nextBtn" class="carrusel-btn">❯</button>
+    
+       
+    </main>
+
+    <!-- Botones de sesión -->
+    
+        <p><button id="authorize_button" onclick="handleAuthClick()">Iniciar sesión</button></p>
+        <button id="signout_button" onclick="handleSignoutClick()" style="display:none">Cerrar sesión</button>
+    
+</body>
+
+</html>
